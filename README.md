@@ -32,6 +32,9 @@ Any other processing necessitated by the interrupt can often be performed in a t
 the interrupt service routine to exit as quickly as is practical. This is called ‘deferred interrupt 
 processing’, because the processing necessitated by the interrupt is ‘deferred’ from the ISR to 
 a task.
+
+![Image Alt](https://github.com/chithrinesh/RTOS-DOCUMENTATION/blob/main/WhatsApp%20Image%202025-02-28%20at%206.54.22%20PM%20(1).jpeg?raw=true)
+
 ## How deferring interrupts is utilised in the code:
 Interrupt method is used to read CAN(Controller area network) data from orion thermistor pack and charger.Kernel object semaphores are used to defer the ISR to task interruptdata and interruptdata1 respectively to keep ISR short and to make sure we dont lose any new interrupts.
 
