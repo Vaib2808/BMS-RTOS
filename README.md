@@ -62,13 +62,17 @@ Higher priority task waiting for semaphore to process the data from ISR:
     xSemaphoreTake(yBinarySemaphore, portMAX_DELAY);
 ```
 ## Functions of the BMS:
-1.Monitor voltage of 106 cells by receiving data from ltc6813 battery stack monitor at spi speed of 1Mhz.
+1.Monitor voltage of 106 cells by receiving data from ltc6813 battery stack monitor using spi at speed of 1Mhz.
 
 2.Recive temperature from 100 thermistors connected to orion thermistor module using can at bitrate of 250 Kbps.
 
 3.Send and receive data from elcon 6.6kw charger through can at bitrate of 500Kbps.
 
 4.Send and receive data from bms gui via serial port at baud rate of 9600 bps.
+
+5.Log the cell voltages and the temperatures using the onboard SD card.
+
+6.Send an output to the AMS Latch PCB when Cell Voltages or Temps exceed their limits to open the contactor of HV battery.
 ## Hardware setup:
 
 ![Image Alt](https://private-user-images.githubusercontent.com/73470491/278736745-d723e69a-bf36-4046-bdb6-fdabad217f43.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA3NTM1OTMsIm5iZiI6MTc0MDc1MzI5MywicGF0aCI6Ii83MzQ3MDQ5MS8yNzg3MzY3NDUtZDcyM2U2OWEtYmYzNi00MDQ2LWJkYjYtZmRhYmFkMjE3ZjQzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI4VDE0MzQ1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThhYTI1YzAzNWM4NWQ3YzdmMTc1YWI4ODMxNDkxMWI3MTQ0OGE1NDJkM2I3MGM5NzE4MDVmYThjZWRkOTgxZjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.M_UHDOwQIH6Mcd5bweOGStuiDb40TpGUx4T2AXNjvE0)
