@@ -20,6 +20,8 @@ interruptdata1 task has priority of 2 and its used to process data sent from cha
 ## Scheduling algorithm:
 Prioritized Preemptive Scheduling with Time Slicing is chosen as the scheduling algorithm and it can be enabled by confuguring the settings of FreeRTOSConfig.h as below:
 
+![Image Alt](https://github.com/chithrinesh/RTOS-DOCUMENTATION/blob/main/WhatsApp%20Image%202025-02-28%20at%206.54.22%20PM.jpeg?raw=true)
+
 Preemptive scheduling algorithms will immediately 'preempt' the Running state task if a task that has a
  priority higher than the Running state task enters the Ready state.
 
