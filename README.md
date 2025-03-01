@@ -75,7 +75,8 @@ Higher priority task waiting for semaphore to process the data from ISR:
 6.Send an output to the AMS Latch PCB when Cell Voltages or Temps exceed their limits to open the contactor of HV battery.
 ## Hardware setup:
 
-![Image Alt](https://private-user-images.githubusercontent.com/73470491/278736745-d723e69a-bf36-4046-bdb6-fdabad217f43.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA3NTM1OTMsIm5iZiI6MTc0MDc1MzI5MywicGF0aCI6Ii83MzQ3MDQ5MS8yNzg3MzY3NDUtZDcyM2U2OWEtYmYzNi00MDQ2LWJkYjYtZmRhYmFkMjE3ZjQzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI4VDE0MzQ1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThhYTI1YzAzNWM4NWQ3YzdmMTc1YWI4ODMxNDkxMWI3MTQ0OGE1NDJkM2I3MGM5NzE4MDVmYThjZWRkOTgxZjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.M_UHDOwQIH6Mcd5bweOGStuiDb40TpGUx4T2AXNjvE0)
+![Image Alt](![image](https://github.com/user-attachments/assets/13b0f3eb-775f-45e1-b9c5-7403bffada3c)
+)
 
 ## Refernces
 
