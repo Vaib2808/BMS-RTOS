@@ -1,7 +1,7 @@
 
 # BMS-RTOS
 
-Freertos implementation on battery management system master(Teensy 4.1).
+Freertos implementation on battery management system master(Teensy 4.1). by Vaibhav and Chithrinesh
 
 
 ## TASKS:
