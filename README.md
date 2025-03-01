@@ -75,8 +75,7 @@ Higher priority task waiting for semaphore to process the data from ISR:
 6.Send an output to the AMS Latch PCB when Cell Voltages or Temps exceed their limits to open the contactor of HV battery.
 ## Hardware setup:
 
-![Image Alt](![image](https://github.com/user-attachments/assets/13b0f3eb-775f-45e1-b9c5-7403bffada3c)
-)
+![Image Alt](https://github.com/user-attachments/assets/13b0f3eb-775f-45e1-b9c5-7403bffada3c)
 
 ## Refernces
 
